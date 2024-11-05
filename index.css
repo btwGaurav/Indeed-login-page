@@ -1,0 +1,109 @@
+*{
+    padding: 0;margin: 0;
+}
+body{
+    background: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo img
+{
+    width: 150px;
+    position: absolute;
+    top: 120px;
+    left: 45vw;
+}
+.container{
+    height: 58vh;
+    width: 58vh;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+
+}
+.container::before{
+    content: "";
+    position: absolute;
+    height: 13%;
+    width: 58vh;
+    background: url(https://img.pikbest.com/best/video_preview_img/2307/9142574.jpg!w700wp);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.title h3{
+    margin-top: 15.5vh;
+    margin-left: 1.2vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title p{
+    margin-left: 1.2vw;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.otp h4{
+    margin-top: 15px;
+    margin-left: 1.2vw;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.otpbox input{
+    height: 4.5vh;
+    width: 91%;
+    margin-left: 16px;
+    margin-top: 2vh;
+    border: 1px solid rgb(7, 88, 250);
+    border-radius: 6px;
+    border-bottom: 3.5px solid rgb(37,87,167);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.otpbox input::placeholder{
+    padding-left: 20px;
+    margin-left: 20PX;
+    text-wrap-mode: auto;
+}
+.otpbox p{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 12px;margin-left: 16px;
+}
+.otpbox button{
+    height: 4.5vh;
+    width: 91%;
+    margin-left: 16px;
+    margin-top: 2vh;
+    background: rgb(37,87,167);
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 600;
+}
+.send{
+    display: flex;
+    margin-top: 10px;
+justify-content: center;   
+text-decoration: none; 
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 600;
+color: rgb(37,87,167) ;
+}
+.container .not button{
+    width: 91%;
+    height: 4.5vh;
+    margin-top: 2.5vh;
+    margin-left: 16px;
+    background: rgb(239,241,254);
+    color: rgb(9, 55, 131);
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+}
