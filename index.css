@@ -62,6 +62,8 @@ body{
     border-radius: 6px;
     border-bottom: 3.5px solid rgb(37,87,167);
     font-family: Arial, Helvetica, sans-serif;
+    direction: none;
+    text-decoration: none;
 }
 .otpbox input::placeholder{
     padding-left: 20px;
