@@ -1,0 +1,166 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+.empty{
+    height: 50vh;
+    width: 100vw;
+}
+.bottomhalf{
+    height: 50vh;
+    width: 100vw;
+    background: rgb(3, 3, 102);
+}
+.header{
+    display: flex;
+    height: 25%;
+    border-bottom: .5px solid rgb(170, 187, 196);
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    
+}
+.header h2{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+.header i{
+    margin-left: 30px;
+    
+    height: 24px;
+    width: 31px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 30px;
+
+    
+
+    
+
+}
+.main
+{
+    display: flex;
+    
+    height: 60%;
+}
+.company{
+    width: 18vw;
+    
+    color: white;
+}
+.company h2{
+    margin: 20px 35px;
+    text-decoration: 
+    
+}
+.company p{
+    margin: 14px 35px;
+    color: rgb(170, 187, 196);
+    font-weight: 500;
+}
+.services{
+    width: 18vw;
+    
+    color: white;
+}
+.services h2{
+    margin: 20px 35px;
+}
+.services p{
+    margin: 14px 35px;
+    color: rgb(170, 187, 196);
+    font-weight: 500;
+}
+.account{
+    width: 18vw;
+    
+    color: WHITE;
+}
+.account h2{
+    margin: 20px 35px;
+}
+.account p{
+    margin: 14px 35px;
+    color: rgb(170, 187, 196);
+    font-weight: 500;
+}
+.courses{
+    width: 18vw;
+    
+    color: white;
+}
+.courses h2{
+    margin: 20px 35px;
+}
+.courses p{
+    margin: 14px 35px;
+    color: rgb(170, 187, 196);
+    font-weight: 500;
+}
+.subscribe{
+    width: 28vw;
+    
+}
+.subscribe h2{
+    margin: 20px 35px;
+    color: white;
+}
+.subscribe input{
+    margin: 0px 35px;
+    height: 14%;
+    width: 60%;
+    border-radius: 7px;
+    background: transparent;
+    border: 2px solid rgb(170, 187, 196) ;
+    color: WHITE;
+}
+
+.subscribe input::placeholder{
+    color:  rgb(170, 187, 196);
+    padding-left: 10px;
+}
+.subscribe button{
+
+    height: 14%;
+    width: 62%;
+    margin: 10px 35px;
+    border-radius: 7px;
+    border: 2px solid whitesmoke ;
+    font-size: 18px;
+    color: rgb(3, 3, 102);
+    background: whitesmoke;
+    font-weight: 600;
+
+
+}
+.footer
+{
+    height: 14.5%;
+    color: rgb(170, 187, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    font-size: 13px;
+    background: rgb(12, 12, 85);
+
+}
+
+.footer .new a{
+    text-decoration: none;
+    color: rgb(170, 187, 196);
+    padding-left: 14px;
+
+}
