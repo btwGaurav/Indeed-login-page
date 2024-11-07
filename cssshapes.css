@@ -1,0 +1,20 @@
+*{
+    margin: 0;padding: 0;
+}
+    body{height: 100vh;
+        width: 100vw;
+        text-align: center;
+display: flex;
+align-items: center;
+    }
+
+.section-1{
+    background: black;
+    height: 10rem;
+    width: 10rem;
+    margin: auto auto;
+    border-radius: 50%;
+    color: white;
+    display: grid;
+    place-items: center;
+}
