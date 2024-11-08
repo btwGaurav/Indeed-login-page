@@ -1,5 +1,6 @@
 *{
     margin: 0;padding: 0;
+    
    
 }
 body{
@@ -160,7 +161,7 @@ position: fixed;}
 
 .footer .product3
 {
-    display: flex;
+  
     width: 150pxpx;
     height: 200px;
     align-items: center;
@@ -170,14 +171,127 @@ position: fixed;}
 }
 .footer .product4
 {
-    display: flex;
-    width: 150px;
+  
+    width: 150pxpx;
     height: 200px;
     align-items: center;
     justify-content: center;
     padding-right:120px;
     
 }
+.footer .box2
+{
+ display: flex;
+ justify-content: space-between;
+ height: 60vh;
+ width: 430px;
+ background: rgb(255,255,255);
+ margin: 0 20px;
+ margin-top: -20px;
+ flex-direction: column;
+ position: relative;
+
+}
 .product3 img{
     width: 140px;
     height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+.footer .box2 h2{
+    font-size: 20px;
+    margin: 15px 0 0 15px;
+    width: 100%;
+}
+.product4 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 55px;
+    left: 240px;
+}
+.footer .products
+{
+    display: flex;
+   
+}
+.box2 .induction{
+    position: absolute;
+    top: 191px;
+    left: 30px;
+    font-size: 16px;
+}
+.box2 .machine{
+    position: absolute;
+    top: 191px;
+    left: 240px;
+    font-size: 16px;
+}
+.footer .product3
+{
+  
+    width: 150pxpx;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .product4
+{
+  
+    align-items: center;
+    justify-content: center;
+    padding-right:120px;
+    
+}
+.footer .box3
+{
+ display: flex;
+ justify-content: space-between;
+ height: 60vh;
+ width: 430px;
+ background: rgb(255,255,255);
+ margin: 0 20px;
+ margin-top: -20px;
+ flex-direction: column;
+ position: relative;
+
+}
+.product5 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+.footer .box3 h2{
+    font-size: 20px;
+    margin: 15px 0 0 15px;
+    width: 100%;
+}
+.product6 img{
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    top: 60px;
+    left: 240px;
+}
+.footer .productc
+{
+    display: flex;
+   
+}
+.box3 .plate{
+    position: absolute;
+    top: 191px;
+    left: 30px;
+    font-size: 16px;
+}
+.box3 .bird{
+    position: absolute;
+    top: 191px;
+    left: 225px;
+    font-size: 16px;
+}
